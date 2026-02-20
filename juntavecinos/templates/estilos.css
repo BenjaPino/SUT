@@ -1,0 +1,10 @@
+.custom-card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.custom-card {
+    flex: 0 0 calc(33.333% - 20px);
+}
